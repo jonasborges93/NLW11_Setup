@@ -7,7 +7,7 @@ const prisma = new PrismaClient();
 
 //Definindo qual endereço irá consumir a API
 app.register(cors,{
-  origin:['http://localhost:3000']
+  origin:['http://localhost:5173']
 });
 
 //Pegando Todos os Dados do BD
